@@ -1,2 +1,1 @@
-# Java-Core-Kick-08
 
