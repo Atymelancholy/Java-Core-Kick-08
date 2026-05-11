@@ -2,7 +2,6 @@ package com.atymelancholy.model;
 
 import java.util.Collections;
 import java.util.List;
-import com.atymelancholy.exception.TextProcessingException;
 
 public class LeafTextComponent implements TextComponent {
     private final TextComponentType type;
@@ -30,6 +29,6 @@ public class LeafTextComponent implements TextComponent {
 
     @Override
     public void add(TextComponent component) {
-        throw new TextProcessingException("Leaf component cannot contain children");
+        throw new UnsupportedOperationException("Leaf component cannot contain children");
     }
 }

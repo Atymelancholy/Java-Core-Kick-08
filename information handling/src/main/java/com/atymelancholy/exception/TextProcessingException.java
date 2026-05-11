@@ -1,6 +1,7 @@
 package com.atymelancholy.exception;
 
-public class TextProcessingException extends RuntimeException {
+public class TextProcessingException extends Exception {
+
     public TextProcessingException(String message) {
         super(message);
     }
