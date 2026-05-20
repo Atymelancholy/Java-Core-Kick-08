@@ -1,0 +1,8 @@
+# wards medications
+3 10
+# patient_name meds_required treatment_ms
+Alice 2 500
+Bob 1 400
+Charlie 3 600
+Diana 1 300
+Eve 2 450
